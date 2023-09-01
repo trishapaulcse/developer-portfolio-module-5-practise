@@ -2,7 +2,9 @@ body
 {
     font-family: 'Open Sans', sans-serif;
 }
+
 /* start for navbar style */
+
 nav
 {
     display: flex;
@@ -39,8 +41,8 @@ nav a
 {
     background-color: orangered;
     border-style: none;
-    padding: 10px;
-    border-radius: 3px;
+    padding: 20px;
+    border-radius: 5px;
     color: white;
     font-size: 20px;
     font-weight: 700;
@@ -48,3 +50,20 @@ nav a
 }
 
 /* end for navbar style */
+
+.header
+{
+    background-color: #FFF8F3;
+    
+}
+.banner
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 30px 30px 150px;
+}
+.banner .profile-pic
+{
+    width:500px;
+}
