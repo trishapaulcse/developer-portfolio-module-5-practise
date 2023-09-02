@@ -54,6 +54,9 @@ nav a
 .header
 {
     background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
     
 }
 .banner
@@ -61,9 +64,68 @@ nav a
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
 }
 .banner .profile-pic
 {
     width:500px;
+}
+
+/* about me section styles */
+main
+{
+    max-width:1140px;
+    margin: 0 auto;
+
+}
+.about-me-section
+{
+    background-color: #FFF8F3;
+   padding: 30px;
+   border-radius: 10px;
+   margin:50px 0px 50px 0px;
+   
+}
+.about-me-heading
+{
+    font-size: 35px;
+    text-align: center;
+   
+}
+.about-section-description
+{
+    color: #757575;
+    text-align: center;
+   
+}
+.about-info-container
+{
+    display: flex;
+    justify-content: space-around;
+}
+.info-title
+{
+    text-align: center;
+}
+/* what i do */
+.what-i-do-description
+{
+    padding: 30px 150px;
+}
+#what-i-do
+{
+    text-align: center;
+}
+.skills-container
+{
+    display: flex;
+}
+.skills
+{
+    padding: 30px;
+    text-justify: auto;
+}
+.resume-container
+{
+    display: flex;
 }
