@@ -128,4 +128,20 @@ main
 .resume-container
 {
     display: flex;
+    gap: 50px;
+}
+.download-cv
+{
+    text-align: center;
+    
+}
+.footer
+{
+    display: flex;
+    background-color: blanchedalmond;
+    padding: 130px 200px;
+}
+.footer-column
+{
+    width: 50%;
 }
